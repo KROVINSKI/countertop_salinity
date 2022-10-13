@@ -98,14 +98,9 @@ library(kableExtra)
 
 
 #set working directory to the correct folder
-temp_Log <- read_csv(here::here("02_processedData",
-                          "MasterTimeSeries","2021.03.31_Master_Temperature_log.csv"))
+dCNDCT <- read_csv(here::here("raw_data",
+                          "master_ugly_evap_test_worksheet_2022.9.26.csv"))
 
-temp_pH <- read_csv(here::here("02_processedData",
-                               "MasterTimeSeries","2021.03.31_pH_timeseries_log.csv"))
-
-temp_salinty <- read_csv(here::here("02_processedData",
-                                    "MasterTimeSeries","2021.03.31_salinity_timeseries_log.csv"))
 
 ```
 
